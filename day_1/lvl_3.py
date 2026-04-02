@@ -1,0 +1,30 @@
+#1
+print(9)
+print(9.0)
+print(2j * 4)
+print("hello world")
+print(True)
+print([3, 5, 5])
+print((2, 4, 6))
+print({2, 3, 4, 5,})
+print({"hello", "world"})
+print()
+print(type(9))
+print(type(9.0))
+print(type(2j * 4))
+print(type("hello world"))
+print(type(True))
+print(type([3, 5, 5]))
+print(type((2, 4, 6)))
+print(type({2, 3, 4, 5,}))
+print(type({"hello": "world"}))
+#2
+print()
+import math
+euc = (math.sqrt((2 ** 2)+(3 ** 2)))
+print(f"The Euclidean distance between 2 and 3 is {euc}")
+print()
+A = [0,0]
+B = [10, 8]
+euc = math.dist(A, B)
+print(euc)

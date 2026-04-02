@@ -1,0 +1,22 @@
+print('Hello World!')
+#2.
+print(3 + 4)
+print(3 - 4)
+print(3 * 4)
+print(3 / 4)
+print(3 ** 4)
+print(3 % 4)
+print(3 // 2)
+#3.
+print("Byron")
+print("E.")
+print("USA")
+print("I am enjoying 30 days of python")
+#4.
+print(type(10))
+print(type(3.14))
+print(type(4 - 4j))
+print(type(['Asanabeh', 'Python', 'Finland']))
+print(type("Byron"))
+print(type("E."))
+print(type("USA"))
