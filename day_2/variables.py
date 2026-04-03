@@ -35,3 +35,25 @@ num_div = num_one / num_two
 print(num_div)
 num_rem = num_two % num_one
 print(num_rem)
+num_exp = num_one ** num_two
+print(num_exp)
+num_floor = num_one // num_two
+print(num_floor)
+
+import math
+radius = 30
+
+area_of_circle = math.pi * (radius ** 2)
+print(area_of_circle)
+
+circum_of_circle = (math.pi * radius) * 2
+print(circum_of_circle)
+user_radius = int(input("Enter Radius: "))
+user_area = math.pi * (user_radius ** 2)
+print(user_area)
+#Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
+u_first_name = input("Enter First Name: ")
+u_last_name = input("Enter Last Name: ")
+u_country = input("Enter Country: ")
+u_age = input("Enter Age: ")
+print(f"I am {u_first_name} {u_last_name} I am from the {u_country} and I'm {u_age} years old!")
